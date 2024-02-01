@@ -20,16 +20,16 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** El nombre de tu base de datos de WordPress */
-define('DB_NAME', 'testturismo');
+define('DB_NAME', 'w6000503_turis');
 
 /** Deshabilito WP_CRON */
 define('DISABLE_WP_CRON', true);
 
 /** Tu nombre de usuario de MySQL */
-define('DB_USER', 'root');
+define('DB_USER', 'w6000503_turis');
 
 /** Tu contraseña de MySQL */
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', '12357Turism0');
 
 
 /** MySQL hostname */
