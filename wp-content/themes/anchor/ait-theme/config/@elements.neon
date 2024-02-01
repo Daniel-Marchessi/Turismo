@@ -1,0 +1,34 @@
+# Disabling elements
+
+#page-title: disabled
+
+# Overloading default config
+
+#portfolio:
+#	title: Super Portfolio # overload title
+#	configuration:
+#		cpt:
+#			- portfolio
+#		assets:
+#			js:
+#				......
+#		columnable: false
+
+widget-area:
+	title: _x(Widget Area, name of element)
+	package:
+		basic: true
+		standard: true
+		business: true
+		themeforest: true
+		developer: true
+	configuration:
+		cloneable: false
+		sortable: false
+		columnable: false
+		assets:
+			js:
+				ait-jquery-cookie:
+					file: '/libs/jquery.cookie.js'
+					deps: 'ait'
+				ait-mobile-script: true

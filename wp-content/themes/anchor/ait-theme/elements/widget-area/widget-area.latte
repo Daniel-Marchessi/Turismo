@@ -1,0 +1,17 @@
+{if !empty($el->option->area->sidebar) and $wp->isWidgetAreaActive($el->option->area->sidebar)}
+	{include $el->common('header')}
+
+	<div id="{$htmlId}" n:class="$htmlClass, $el->option->floating ? widget-area-floating : widget-area-static" data-floating="{$el->option->floating}">
+
+		<div class="minimize-toggle"><i class="fa fa-times"></i></div>
+
+		<div class="grid-main">
+			<div class="widget-area-container">
+				{widgetArea $el->option->area->sidebar}
+			</div>
+		</div>
+
+	</div>
+
+	{includePart "ait-theme/elements/widget-area/javascript"}
+{/if}

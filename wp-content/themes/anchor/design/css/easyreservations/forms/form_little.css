@@ -1,0 +1,91 @@
+#easy-widget-datepicker-to, #easy-widget-datepicker-from {
+	width:40%;
+/*	max-width:80px;     */
+}
+
+#easy_widget_form #easy-widget-date-from-hour, #easy_widget_form #easy-widget-date-from-min,
+#easy_widget_form #easy-widget-date-to-hour, #easy_widget_form #easy-widget-date-to-min {
+	min-width: 45px;
+}
+
+#easy_widget_form {
+	margin:5px;
+	padding:5px;
+	line-height:2.4em;
+	width:100%;
+}
+
+#easy_widget_form label {
+	display:inline-block;
+	font-weight:bold;
+	width:30%;
+}
+
+#easy_widget_form input {
+/*	width:60%;    
+	padding:1px;    */
+}
+
+#easy_widget_form .easybutton {
+/*	-moz-box-shadow:inset 0px 1px 0px 0px #fff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #fff;
+	box-shadow:inset 0px 1px 0px 0px #575757;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #444444), color-stop(1, #636363) );
+	background:-moz-linear-gradient( center top, #444444 5%, #636363 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#444444', endColorstr='#636363');
+	background-color:#ededed;
+	border:1px solid #575757 !important;                 */
+	display:inline-block;
+	color:#ffffff !important;
+	line-height:1.1;
+	font-family:arial;
+	font-size:13px;
+	font-weight:bold;
+/*	padding:3px 6px;           */
+	text-decoration:none;
+/*	text-shadow:1px 1px 0px #000;          */
+	cursor:pointer;
+}
+
+/*
+#easy_widget_form .easy-button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #636363), color-stop(1, #636363) );
+	background:-moz-linear-gradient( center top, #636363 5%, #636363 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#636363', endColorstr='#444444');
+	color:#ffffff;                                                                                         */
+}
+/*#easy-widget-datepicker-from, #easy-widget-datepicker-to {
+	width:40% !important;
+}                          */
+
+#easy_widget_form select {
+	background: #FAFAFA;
+	border: 1px solid #DDDDDD;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1) inset;
+	color: #888888;
+	padding: 2px 2px 2px 0px;
+/*	max-width: 60%;            */
+}
+
+#easy_widget_form select:focus,#easy_widget_form input[type=text]:focus {
+	background: #fff;
+}
+
+
+/* Customization for Widget */
+
+#easy_widget_form { margin: 0px; padding: 0px;  }
+
+#easy_widget_form label { text-transform: uppercase; }
+
+#easy_widget_form input[type="text"], #easy_widget_form select { padding: 10px 10px 11px;  width: 68%;  border: none; box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05) inset; -moz-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05) inset; -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05) inset;
+margin-bottom: 10px; color: #717171; text-align: left; 	-webkit-box-sizing: border-box; -moz-box-sizing: border-box;  box-sizing: border-box; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;  }
+
+
+#easy_widget_form select {box-shadow: none; width: 68.4%; }
+
+#easy_widget_form .easybutton {  text-transform: uppercase; width: 100%; padding: 14px; min-height: 46px; border-radius: 25px;  -moz-border-radius: 25px;  -webkit-border-radius: 25px;}
+
+#easy_widget_form select:focus, #easy_widget_form input[type=text]:focus { background: #e7e7e7; color: #4e4e4e; }
+
+#showCalender.widget { margin-bottom: 15px; }             
